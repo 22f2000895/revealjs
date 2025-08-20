@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Q3 2024 Earnings Report</title>
+
+    <!-- The core Reveal.js CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <!-- Theme for Reveal.js (you can choose a different one like 'black', 'white', 'simple', 'moon', etc.) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/league.min.css">
+    <!-- Highlight.js for code syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/monokai.min.css">
+</head>
+<body>
+
+    <div class="reveal">
+        <div class="slides">
+
+            <!-- Slide 1: Title Slide -->
+            <section>
+                <h2>Quarterly Earnings Report</h2>
+                <h3>Q3 2024</h3>
+                <p>
+                    <small>Technical Consultant: 22f2000895@ds.study.iitm.ac.in</small>
+                </p>
+            </section>
+
+            <!-- Slide 2: Markdown Content -->
+            <section data-markdown>
+                <textarea data-template>
+                    ## Key Highlights
+
+                    -   **Revenue Growth**: Strong performance driven by new product launches.
+                    -   **Market Expansion**: Successfully entered new regions.
+                    -   **Operational Efficiency**: Cost-saving initiatives have yielded positive results.
+                </textarea>
+            </section>
+
+            <!-- Slide 3: Animated Elements (Fragments) -->
+            <section>
+                <h2>Financial Performance Breakdown</h2>
+                <ul>
+                    <li class="fragment fade-in">Total Revenue: **$1.2B** (+15% YoY)</li>
+                    <li class="fragment fade-in">Net Income: **$250M** (+20% YoY)</li>
+                    <li class="fragment fade-in">Earnings Per Share (EPS): **$2.50** (+18% YoY)</li>
+                </ul>
+            </section>
+
+            <!-- Slide 4: Code Sample with Syntax Highlighting -->
+            <section>
+                <h2>Compound Interest Calculation</h2>
+                <pre><code class="language-python" data-line-numbers>
+def compound_interest(principal, rate, time):
+    """Calculates compound interest."""
+    amount = principal * (1 + rate / 100) ** time
+    return amount
+
+# Example usage for $10,000 at 5% for 10 years
+result = compound_interest(10000, 5, 10)
+print(f"Final amount: ${result:.2f}")
+                </code></pre>
+            </section>
+
+            <!-- Slide 5: Mathematical Equations -->
+            <section>
+                <h2>Key Financial Formulas</h2>
+                <p>
+                    The formula for Compound Annual Growth Rate (CAGR) is:
+                </p>
+                $$CAGR = \left(\frac{Ending\ Value}{Beginning\ Value}\right)^{\frac{1}{Years}} - 1$$
+                <p>
+                    Where:
+                    <br> $Ending\ Value$ = Final investment value
+                    <br> $Beginning\ Value$ = Initial investment value
+                    <br> $Years$ = Number of years
+                </p>
+            </section>
+
+            <!-- Slide 6: Speaker Notes -->
+            <section>
+                <h2>Next Steps</h2>
+                <p>Thank you for your attention. We are open for Q&A.</p>
+                <aside class="notes">
+                    This is a speaker note section. The audience won't see this.
+                    Guidance for the speaker:
+                    - Start by summarizing the key highlights from the previous slides.
+                    - Remind stakeholders of the long-term vision.
+                    - Address common questions about future growth strategies.
+                </aside>
+            </section>
+
+        </div>
+    </div>
+
+    <!-- Core Reveal.js JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/math/math.min.js"></script>
+
+    <!-- Initialize Reveal.js -->
+    <script>
+        Reveal.initialize({
+            hash: true,
+            // Plugins to enable
+            plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX ]
+        });
+    </script>
+
+</body>
+</html>
